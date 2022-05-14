@@ -1,3 +1,7 @@
+// import react and style
+import React from "react";
+import "./index.css";
+
 // import all sections from components
 import About from "./components/About";
 import Contact from "./components/Contact";
