@@ -5,11 +5,11 @@ import Profile from "../assets/profile.JPEG";
 // create About section function
 const About = () => {
   return (
-    <div
+    <section
       name="about"
-      className="w-full h-screen text-indigo-600 bg-emerald-400"
+      className="w-full h-screen text-stone-600 bg-slate-800"
     >
-      <div className="flex flex-col justify-center items-center w-full h-full">
+      <figure className="flex flex-col md:flex bg-indigo-300 rounded-xl p-8 md:p-0">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
             <p className="text-4xl font-bold inline border-b-4 border-purple-900">
@@ -23,20 +23,15 @@ const About = () => {
             class="w-48 h-48 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
             src={Profile}
             alt="Profile img"
-            width="512"
-            height="784"
           ></img>
           <div className="sm:text-right">
             <p className="font-bold text-4xl">
               Hello! My name is Josh Lyons; I'm a full stack developer.
             </p>
           </div>
-          <div className="font-medium">
-            <p className="font-bold text-4xl">TEST TEST TEST TEST</p>
-          </div>
         </div>
-      </div>
-    </div>
+      </figure>
+    </section>
   );
 };
 
