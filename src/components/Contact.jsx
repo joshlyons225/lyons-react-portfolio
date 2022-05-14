@@ -19,8 +19,8 @@ const Contact = () => {
             </p>
           </div>
         </div>
-        <div className="lg:flex fixed flex-row top-[35%] left-0">
-          <ul>
+        <div className="lg:flex fixed top-[35%] left-0">
+          <ul className="flex flex-row">
             <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
               <a
                 className="flex justify-between items-center w-full text-gray-300"
