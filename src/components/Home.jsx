@@ -1,7 +1,7 @@
 // import files and dependencies
 import React from "react";
-// import { HiArrowNarrowRight } from "react-icons/hi";
-// import { Link } from "react-scroll";
+import { HiArrowNarrowRight } from "react-icons/hi";
+import { Link } from "react-scroll";
 
 // create Home section function
 const Home = () => {
