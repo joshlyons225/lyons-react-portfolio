@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <section
       name="projects"
-      className="w-full h-auto text-stone-600 bg-slate-800"
+      className="w-full h-screen text-stone-600 bg-slate-800"
     >
       <figure className="flex flex-col md:flex bg-indigo-300 rounded-xl p-8 md:p-0">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
