@@ -23,6 +23,32 @@ const Skills = () => {
               Skills
             </p>
           </div>
+          <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+              <img className="w-20 mx-auto" src={HTML} alt="HTML icon" />
+            </div>
+            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+              <img className="w-20 mx-auto" src={CSS} alt="CSS icon" />
+            </div>
+            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+              <img className="w-20 mx-auto" src={Javascript} alt="JS icon" />
+            </div>
+            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+              <img className="w-20 mx-auto" src={Node} alt="Node icon" />
+            </div>
+            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+              <img className="w-20 mx-auto" src={MongoDB} alt="Mongo icon" />
+            </div>
+            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+              <img className="w-20 mx-auto" src={MySQL} alt="MySQL icon" />
+            </div>
+            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+              <img className="w-20 mx-auto" src={ReactIcon} alt="React icon" />
+            </div>
+            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+              <img className="w-20 mx-auto" src={GraphQL} alt="GraphQL icon" />
+            </div>
+          </div>
         </div>
       </figure>
     </section>
