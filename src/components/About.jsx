@@ -32,13 +32,7 @@ const About = () => {
             </p>
           </div>
           <div className="font-medium">
-            <p className="font-bold text-4xl">
-              Bullet
-              <br>list</br>
-              <br>here</br>
-              <br>of</br>
-              <br>shit</br>
-            </p>
+            <p className="font-bold text-4xl">TEST TEST TEST TEST</p>
           </div>
         </div>
       </div>

@@ -13,7 +13,7 @@ import Skills from "./components/Skills";
 // create App function to contain all page sections
 function App() {
   return (
-    <div className="App">
+    <div>
       <Navbar />
       <Home />
       <About />
