@@ -3,10 +3,10 @@ import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Horrorscope from "../assets/horrorscopes.png";
-import OOPTracker from "../assets/ooptracker.png";
 import Yodad from "../assets/yodad.png";
 import Quiz from "../assets/quiz.png";
 import Up2Bar from "../assets/up2bar.jpg";
+import Budget from "../assets/budget.png";
 
 // create Projects section function
 const Projects = () => {
@@ -45,13 +45,6 @@ const Projects = () => {
             <div>
               <img
                 className="object-cover h-1/5 w-auto py-2"
-                src={OOPTracker}
-                alt="ooptracker icon"
-              ></img>
-            </div>
-            <div>
-              <img
-                className="object-cover h-1/5 w-auto py-2"
                 src={Yodad}
                 alt="yodad icon"
               ></img>
@@ -68,6 +61,13 @@ const Projects = () => {
                 className="object-cover h-1/5 w-auto py-2"
                 src={Up2Bar}
                 alt="up2bar icon"
+              ></img>
+            </div>
+            <div>
+              <img
+                className="object-cover h-1/5 w-auto py-2"
+                src={Budget}
+                alt="budget icon"
               ></img>
             </div>
           </Carousel>
