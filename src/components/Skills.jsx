@@ -1,14 +1,6 @@
 // import files and dependencies
 import React from "react";
 import Thought from "../assets/thought.png";
-// import CSS from "../assets/css.png";
-// import GraphQL from "../assets/graphql.png";
-// import HTML from "../assets/html.png";
-// import Javascript from "../assets/javascript.png";
-// import MongoDB from "../assets/mongo.png";
-// import MySQL from "../assets/mysql.png";
-// import Node from "../assets/node.png";
-// import ReactIcon from "../assets/react.png";
 
 // create Skills section function
 const Skills = () => {
@@ -24,9 +16,22 @@ const Skills = () => {
               Skills
             </p>
           </div>
-          <div className="w-full flex-auto py-8">
-            <img className="object-fill" src={Thought} alt="Thought icon" />
+        </div>
+
+        <div className="md:flex w-full grid sm:grid-cols-2 gap-10 px-4">
+          <div className="sm:text-right">
+            <p className="font-bold text-4xl">
+              TEST TEST TEST SOMETHING ABOUT ACCOMPLISHMENTS AND SHIT I KNOW,
+              DEPENDENCIES LEARNED. ANYTHING AT ALL REALLY THAT WILL MAKE ME
+              SEEM PRESENTABLE AND SUPER HIREABLE. MAYBE A BULLETIZED LIST?
+              BITCHES LOVE BULLETS.
+            </p>
           </div>
+          <img
+            class="w-48 h-48 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
+            src={Thought}
+            alt="Thought img"
+          ></img>
         </div>
       </figure>
     </section>
