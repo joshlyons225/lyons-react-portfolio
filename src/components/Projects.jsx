@@ -1,5 +1,12 @@
 // import files and dependencies
 import React from "react";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Horrorscope from "../assets/horrorscopes.png";
+import OOPTracker from "../assets/ooptracker.png";
+import Yodad from "../assets/yodad.png";
+import Quiz from "../assets/quiz.png";
+import Up2Bar from "../assets/up2bar.jpg";
 
 // create Projects section function
 const Projects = () => {
@@ -15,6 +22,27 @@ const Projects = () => {
               Projects
             </p>
           </div>
+        </div>
+
+        {/* Carousel */}
+        <div className="carousel-wrapper">
+          <Carousel>
+            <div>
+              <img src={Horrorscope} alt="horrorscope icon"></img>
+            </div>
+            <div>
+              <img src={OOPTracker} alt="ooptracker icon"></img>
+            </div>
+            <div>
+              <img src={Yodad} alt="yodad icon"></img>
+            </div>
+            <div>
+              <img src={Quiz} alt="quiz icon"></img>
+            </div>
+            <div>
+              <img src={Up2Bar} alt="up2bar icon"></img>
+            </div>
+          </Carousel>
         </div>
       </figure>
     </section>
