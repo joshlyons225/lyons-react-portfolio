@@ -1,6 +1,6 @@
 // import files and dependencies
 import React from "react";
-import Profile from "../assets/profile.JPEG";
+import Profile from "../assets/profile.png";
 
 // create About section function
 const About = () => {
