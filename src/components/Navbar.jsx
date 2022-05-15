@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 // placeholder for resume; import Resume from "../assets"
+import LogoJL from "../assets/logo.png";
 
 // create Navbar section function
 const Navbar = () => {
@@ -10,8 +11,8 @@ const Navbar = () => {
   const clickHandler = () => setNav(!nav);
 
   return (
-    <section name="navbar" className="fixed w-full h-auto flex">
-      <div className="w-full h-auto text-stone-600 bg-slate-800">
+    <section name="navbar" className="fixed w-full h-auto">
+      <div className="w-full h-auto text-stone-600 bg-slate-800 flex p-4">
         {/* Nav burger */}
         <div onClick={clickHandler} className="hidden z-10">
           {!nav ? <FaBars /> : <FaTimes />}
@@ -20,7 +21,7 @@ const Navbar = () => {
           className={
             !nav
               ? "invisible"
-              : "absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center"
+              : "absolute top-0 left-0 w-full h-screen flex flex-col"
           }
         >
           <li className="py-6 text-4xl">
@@ -73,6 +74,17 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
+
+        {/* Logo */}
+        <div className="">
+          <div>
+            <img
+              src={LogoJL}
+              alt="logo icon"
+              style={{ width: "300px", height: "200px" }}
+            ></img>
+          </div>
+        </div>
       </div>
     </section>
   );
