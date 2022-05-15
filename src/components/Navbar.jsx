@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <section
       name="navbar"
-      className="fixed w-full h-[200px] flex justify-between items-center px-4 bg-slate-600 text-stone-600"
+      className="fixed w-full h-screen flex bg-slate-600 text-stone-600"
     >
       <div className="w-full h-screen text-stone-600 bg-slate-800">
         {/* Nav burger */}
