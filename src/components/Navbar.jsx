@@ -1,8 +1,6 @@
 // import files and dependencies
 import React, { useState } from "react";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
-import { GiLetterBomb } from "react-icons/gi";
-import { GrDocumentText } from "react-icons/gr";
+import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 // placeholder for resume; import Resume from "../assets"
 
@@ -17,38 +15,10 @@ const Navbar = () => {
       className="fixed w-full h-[200px] flex justify-between items-center px-4 bg-slate-600 text-stone-600"
     >
       <div className="w-full h-screen text-stone-600 bg-slate-800">
-        <ul className="hidden md:flex">
-          <li>
-            <Link to="home" smooth={true} duration={500}>
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link to="about" smooth={true} duration={500}>
-              About
-            </Link>
-          </li>
-          <li>
-            <Link to="skills" smooth={true} duration={500}>
-              Skills
-            </Link>
-          </li>
-          <li>
-            <Link to="projects" smooth={true} duration={500}>
-              Projects
-            </Link>
-          </li>
-          <li>
-            <Link to="contact" smooth={true} duration={500}>
-              Contact
-            </Link>
-          </li>
-        </ul>
-
+        {/* Nav burger */}
         <div onClick={clickHandler} className="md:hidden z-10">
           {!nav ? <FaBars /> : <FaTimes />}
         </div>
-
         <ul
           className={
             !nav
@@ -85,7 +55,12 @@ const Navbar = () => {
           </li>
           <li className="py-6 text-4xl">
             {" "}
-            <Link onClick={clickHandler} to="work" smooth={true} duration={500}>
+            <Link
+              onClick={clickHandler}
+              to="projects"
+              smooth={true}
+              duration={500}
+            >
               Projects
             </Link>
           </li>
