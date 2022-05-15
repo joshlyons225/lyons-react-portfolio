@@ -10,10 +10,7 @@ const Navbar = () => {
   const clickHandler = () => setNav(!nav);
 
   return (
-    <section
-      name="navbar"
-      className="fixed w-full h-auto flex bg-slate-600 text-stone-600"
-    >
+    <section name="navbar" className="fixed w-full h-auto flex">
       <div className="w-full h-auto text-stone-600 bg-slate-800">
         {/* Nav burger */}
         <div onClick={clickHandler} className="hidden z-10">
