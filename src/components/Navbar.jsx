@@ -25,11 +25,6 @@ const Navbar = () => {
           }
         >
           <li className="py-6 text-4xl">
-            <Link onClick={clickHandler} to="home" smooth={true} duration={500}>
-              Home
-            </Link>
-          </li>
-          <li className="py-6 text-4xl">
             {" "}
             <Link
               onClick={clickHandler}
