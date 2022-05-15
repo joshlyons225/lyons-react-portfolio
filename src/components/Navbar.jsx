@@ -16,13 +16,13 @@ const Navbar = () => {
     >
       <div className="w-full h-screen text-stone-600 bg-slate-800">
         {/* Nav burger */}
-        <div onClick={clickHandler} className="md:hidden z-10">
+        <div onClick={clickHandler} className="hidden z-10">
           {!nav ? <FaBars /> : <FaTimes />}
         </div>
         <ul
           className={
             !nav
-              ? "hidden"
+              ? "invisible"
               : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
           }
         >
