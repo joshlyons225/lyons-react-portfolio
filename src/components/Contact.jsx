@@ -1,7 +1,7 @@
 // import files and dependencies
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { GiLetterBomb } from "react-icons/gi";
+import { RiMailSendLine } from "react-icons/ri";
 import { IoDocumentAttachSharp } from "react-icons/io5";
 
 // create Contact section function
@@ -21,7 +21,7 @@ const Contact = () => {
         </div>
         <div className="lg:flex fixed top-[35%] left-0">
           <ul className="flex flex-row justify-center">
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 py-4">
               <a
                 className="flex justify-between items-center w-full"
                 href=""
@@ -30,7 +30,7 @@ const Contact = () => {
                 <FaLinkedin size={50} color={"blue"} />
               </a>
             </li>
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333] py-4">
               <a
                 className="flex justify-between items-center w-full"
                 href="https://github.com/joshlyons225"
@@ -39,15 +39,15 @@ const Contact = () => {
                 <FaGithub size={50} color={"black"} />
               </a>
             </li>
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#aea3b0]">
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#aea3b0] py-4">
               <a
                 className="flex justify-between items-center w-full"
                 href="mailto:joshlyons225@gmail.com"
               >
-                <GiLetterBomb size={50} color={"purple"} />
+                <RiMailSendLine size={50} color={"purple"} />
               </a>
             </li>
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#aea3b0]">
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#aea3b0] py-4">
               <a
                 className="flex justify-between items-center w-full"
                 href=""
