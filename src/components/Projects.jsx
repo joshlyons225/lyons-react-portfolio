@@ -33,6 +33,7 @@ const Projects = () => {
             interval={2000}
             centerMode={true}
             onSwipeMove={true}
+            showThumbs={false}
           >
             <div>
               <img
