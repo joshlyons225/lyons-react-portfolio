@@ -1,7 +1,7 @@
 // import files and dependencies
 import React from "react";
-import { TiArrowDownThick } from "react-icons/ti";
-import { Link } from "react-scroll";
+// import { TiArrowDownThick } from "react-icons/ti";
+// import { Link } from "react-scroll";
 
 // create Home section function
 const Home = () => {
