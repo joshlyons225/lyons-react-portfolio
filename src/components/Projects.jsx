@@ -26,7 +26,14 @@ const Projects = () => {
 
         {/* Carousel */}
         <div className="carousel-wrapper">
-          <Carousel>
+          <Carousel
+            infiniteLoop
+            useKeyboardArrows
+            autoPlay
+            interval={2000}
+            centerMode={true}
+            onSwipeMove={true}
+          >
             <div>
               <img src={Horrorscope} alt="horrorscope icon"></img>
             </div>
