@@ -37,35 +37,35 @@ const Projects = () => {
           >
             <div>
               <img
-                className="object-cover h-48 w-auto py-2"
+                className="object-cover h-1/5 w-auto py-2"
                 src={Horrorscope}
                 alt="horrorscope icon"
               ></img>
             </div>
             <div>
               <img
-                className="object-cover h-48 w-auto py-2"
+                className="object-cover h-1/5 w-auto py-2"
                 src={OOPTracker}
                 alt="ooptracker icon"
               ></img>
             </div>
             <div>
               <img
-                className="object-cover h-48 w-auto py-2"
+                className="object-cover h-1/5 w-auto py-2"
                 src={Yodad}
                 alt="yodad icon"
               ></img>
             </div>
             <div>
               <img
-                className="object-cover h-48 w-auto py-2"
+                className="object-cover h-1/5 w-auto py-2"
                 src={Quiz}
                 alt="quiz icon"
               ></img>
             </div>
             <div>
               <img
-                className="object-cover h-48 w-auto py-2"
+                className="object-cover h-1/5 w-auto py-2"
                 src={Up2Bar}
                 alt="up2bar icon"
               ></img>
