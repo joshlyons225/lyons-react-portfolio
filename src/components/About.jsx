@@ -20,7 +20,7 @@ const About = () => {
 
         <div className="md:flex w-full grid sm:grid-cols-2 gap-10 px-4">
           <img
-            class="w-48 h-48 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
+            className="w-48 h-48 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
             src={Profile}
             alt="Profile img"
           ></img>

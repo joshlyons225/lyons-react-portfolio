@@ -28,7 +28,7 @@ const Skills = () => {
             </p>
           </div>
           <img
-            class="w-48 h-48 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
+            className="w-48 h-48 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
             src={Thought}
             alt="Thought img"
           ></img>
