@@ -35,19 +35,39 @@ const Projects = () => {
             onSwipeMove={true}
           >
             <div>
-              <img src={Horrorscope} alt="horrorscope icon"></img>
+              <img
+                className="object-cover h-48 w-auto"
+                src={Horrorscope}
+                alt="horrorscope icon"
+              ></img>
             </div>
             <div>
-              <img src={OOPTracker} alt="ooptracker icon"></img>
+              <img
+                className="object-cover h-48 w-auto"
+                src={OOPTracker}
+                alt="ooptracker icon"
+              ></img>
             </div>
             <div>
-              <img src={Yodad} alt="yodad icon"></img>
+              <img
+                className="object-cover h-48 w-auto"
+                src={Yodad}
+                alt="yodad icon"
+              ></img>
             </div>
             <div>
-              <img src={Quiz} alt="quiz icon"></img>
+              <img
+                className="object-cover h-48 w-auto"
+                src={Quiz}
+                alt="quiz icon"
+              ></img>
             </div>
             <div>
-              <img src={Up2Bar} alt="up2bar icon"></img>
+              <img
+                className="object-cover h-48 w-auto"
+                src={Up2Bar}
+                alt="up2bar icon"
+              ></img>
             </div>
           </Carousel>
         </div>
