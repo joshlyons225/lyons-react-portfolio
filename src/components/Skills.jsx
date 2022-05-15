@@ -18,7 +18,7 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="md:flex w-full grid sm:grid-cols-2 gap-10 px-4">
+        <div className="md:flex w-full grid sm:grid-cols-2 gap-10 px-4 py-4">
           <div className="sm:text-right">
             <p className="font-bold text-4xl">
               TEST TEST TEST SOMETHING ABOUT ACCOMPLISHMENTS AND SHIT I KNOW,

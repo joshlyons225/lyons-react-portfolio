@@ -18,7 +18,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="md:flex w-full grid sm:grid-cols-2 gap-10 px-4">
+        <div className="md:flex w-full grid sm:grid-cols-2 gap-10 px-4 py-4">
           <img
             className="w-48 h-48 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
             src={Profile}
