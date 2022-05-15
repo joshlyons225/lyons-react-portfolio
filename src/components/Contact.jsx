@@ -2,7 +2,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { GiLetterBomb } from "react-icons/gi";
-import { GrDocumentText } from "react-icons/gr";
+import { IoDocumentAttachSharp } from "react-icons/io5";
 
 // create Contact section function
 const Contact = () => {
@@ -20,40 +20,40 @@ const Contact = () => {
           </div>
         </div>
         <div className="lg:flex fixed top-[35%] left-0">
-          <ul className="flex flex-row">
+          <ul className="flex flex-row justify-center">
             <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
               <a
-                className="flex justify-between items-center w-full text-gray-300"
+                className="flex justify-between items-center w-full"
                 href=""
                 target={"_blank"}
               >
-                <FaLinkedin size={30} />
+                <FaLinkedin size={50} color={"blue"} />
               </a>
             </li>
             <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
               <a
-                className="flex justify-between items-center w-full text-gray-300"
+                className="flex justify-between items-center w-full"
                 href="https://github.com/joshlyons225"
                 target={"_blank"}
               >
-                <FaGithub size={30} />
+                <FaGithub size={50} color={"black"} />
               </a>
             </li>
             <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#aea3b0]">
               <a
-                className="flex justify-between items-center w-full text-gray-300"
+                className="flex justify-between items-center w-full"
                 href="mailto:joshlyons225@gmail.com"
               >
-                <GiLetterBomb size={30} />
+                <GiLetterBomb size={50} color={"purple"} />
               </a>
             </li>
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#aea3b0]">
               <a
-                className="flex justify-between items-center w-full text-gray-300"
+                className="flex justify-between items-center w-full"
                 href=""
                 target={"_blank"}
               >
-                <GrDocumentText size={30} />
+                <IoDocumentAttachSharp size={50} color={"green"} />
               </a>
             </li>
           </ul>
