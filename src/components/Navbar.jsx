@@ -12,9 +12,9 @@ const Navbar = () => {
   return (
     <section
       name="navbar"
-      className="fixed w-full h-screen flex bg-slate-600 text-stone-600"
+      className="fixed w-full h-auto flex bg-slate-600 text-stone-600"
     >
-      <div className="w-full h-screen text-stone-600 bg-slate-800">
+      <div className="w-full h-auto text-stone-600 bg-slate-800">
         {/* Nav burger */}
         <div onClick={clickHandler} className="hidden z-10">
           {!nav ? <FaBars /> : <FaTimes />}
