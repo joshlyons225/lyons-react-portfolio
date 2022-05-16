@@ -1,6 +1,6 @@
 // import files and dependencies
 import React from "react";
-import Profile from "../assets/profile.png";
+import Profile from "../assets/profile.jpg";
 
 // create About section function
 const About = () => {
@@ -20,7 +20,7 @@ const About = () => {
 
         <div className="md:flex w-full grid sm:grid-cols-2 gap-10 px-4 py-4">
           <img
-            className="w-48 h-48 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
+            className="w-48 h-52 rounded-lg mx-auto"
             src={Profile}
             alt="Profile img"
           ></img>

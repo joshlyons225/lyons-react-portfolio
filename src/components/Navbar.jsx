@@ -71,14 +71,12 @@ const Navbar = () => {
         </ul>
 
         {/* Logo */}
-        <div className="">
-          <div>
-            <img
-              src={LogoJL}
-              alt="logo icon"
-              style={{ width: "300px", height: "200px" }}
-            ></img>
-          </div>
+        <div>
+          <img
+            src={LogoJL}
+            alt="logo icon"
+            style={{ width: "300px", height: "200px" }}
+          ></img>
         </div>
       </div>
     </section>
