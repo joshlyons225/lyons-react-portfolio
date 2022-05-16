@@ -18,17 +18,20 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="md:flex w-full grid sm:grid-cols-2 gap-10 px-4 py-4">
+        <div className="flex flex-row flex-wrap w-full grid sm:grid-cols-2 gap-10 px-4 py-4">
           <div className="sm:text-right">
             <p className="font-bold text-4xl">
-              TEST TEST TEST SOMETHING ABOUT ACCOMPLISHMENTS AND SHIT I KNOW,
-              DEPENDENCIES LEARNED. ANYTHING AT ALL REALLY THAT WILL MAKE ME
-              SEEM PRESENTABLE AND SUPER HIREABLE. MAYBE A BULLETIZED LIST?
-              BITCHES LOVE BULLETS.
+              <ul>
+                <li>* HTML, CSS, Git</li>
+                <li>* JavaScript, Node, Express</li>
+                <li>* MySQL, MongoDB, APIs</li>
+                <li>* MVC, ORM, PWA</li>
+                <li>* React, Bootstrap, Tailwind</li>
+              </ul>
             </p>
           </div>
           <img
-            className="w-48 h-52 rounded-lg mx-auto"
+            className="w-auto h-48 rounded-lg mx-auto"
             src={Thought}
             alt="Thought img"
           ></img>
