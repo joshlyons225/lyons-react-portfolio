@@ -35,7 +35,7 @@ const Projects = () => {
             onSwipeMove={true}
             showThumbs={false}
             onClickItem={(index) => {
-              window.open([index].url);
+              window.open(index);
             }}
           >
             <div>
