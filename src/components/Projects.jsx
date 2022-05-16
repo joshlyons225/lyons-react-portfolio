@@ -38,6 +38,7 @@ const Projects = () => {
               window.open(this.index);
             }}
           >
+            {/* Horrorscope */}
             <div>
               <a
                 href="https://horrorscopes-project.herokuapp.com/"
@@ -53,33 +54,73 @@ const Projects = () => {
                 </div>
               </a>
             </div>
+
+            {/* Yoda'd */}
             <div>
-              <img
-                className="object-cover h-1/5 w-auto py-2"
-                src={Yodad}
-                alt="yodad icon"
-              ></img>
+              <a
+                href="https://tenncreekbridges.github.io/API-Mash-Project/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div>
+                  <img
+                    className="object-cover h-1/5 w-auto py-2"
+                    src={Yodad}
+                    alt="yodad icon"
+                  ></img>
+                </div>
+              </a>
             </div>
+
+            {/* Quiz */}
             <div>
-              <img
-                className="object-cover h-1/5 w-auto py-2"
-                src={Quiz}
-                alt="quiz icon"
-              ></img>
+              <a
+                href="https://joshlyons225.github.io/lyons-quiz-app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div>
+                  <img
+                    className="object-cover h-1/5 w-auto py-2"
+                    src={Quiz}
+                    alt="quiz icon"
+                  ></img>
+                </div>
+              </a>
             </div>
+
+            {/* Up2bar */}
             <div>
-              <img
-                className="object-cover h-1/5 w-auto py-2"
-                src={Up2Bar}
-                alt="up2bar icon"
-              ></img>
+              <a
+                href="https://up2bar.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div>
+                  <img
+                    className="object-cover h-1/5 w-auto py-2"
+                    src={Up2Bar}
+                    alt="up2bar icon"
+                  ></img>
+                </div>
+              </a>
             </div>
+
+            {/* Budget */}
             <div>
-              <img
-                className="object-cover h-1/5 w-auto py-2"
-                src={Budget}
-                alt="budget icon"
-              ></img>
+              <a
+                href="https://pacific-cove-13902.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div>
+                  <img
+                    className="object-cover h-1/5 w-auto py-2"
+                    src={Budget}
+                    alt="budget icon"
+                  ></img>
+                </div>
+              </a>
             </div>
           </Carousel>
         </div>
