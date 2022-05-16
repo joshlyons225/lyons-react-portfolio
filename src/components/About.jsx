@@ -1,6 +1,7 @@
 // import files and dependencies
 import React from "react";
 import Profile from "../assets/profile.jpg";
+import { IoDocumentAttachSharp } from "react-icons/io5";
 
 // create About section function
 const About = () => {
@@ -31,6 +32,17 @@ const About = () => {
               Marseille and Nashville. I have truly found my passion in web
               design, and hold a particular interest in MERN stack development.
             </p>
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#aea3b0] py-4">
+              <a
+                className="flex justify-between items-center w-full"
+                href=""
+                target={"_blank"}
+                rel={"noreferrer"}
+              >
+                <IoDocumentAttachSharp size={50} color={"#134e4a"} />
+                <p>Click for resume</p>
+              </a>
+            </li>
           </div>
         </div>
       </figure>

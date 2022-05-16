@@ -2,7 +2,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { RiMailSendLine } from "react-icons/ri";
-import { IoDocumentAttachSharp } from "react-icons/io5";
 
 // create Contact section function
 const Contact = () => {
@@ -46,17 +45,7 @@ const Contact = () => {
                 className="flex justify-between items-center w-full"
                 href="mailto:joshlyons225@gmail.com"
               >
-                <RiMailSendLine size={50} color={"purple"} />
-              </a>
-            </li>
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#aea3b0] py-4">
-              <a
-                className="flex justify-between items-center w-full"
-                href=""
-                target={"_blank"}
-                rel={"noreferrer"}
-              >
-                <IoDocumentAttachSharp size={50} color={"green"} />
+                <RiMailSendLine size={50} color={"#047857"} />
               </a>
             </li>
           </ul>
