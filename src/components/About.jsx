@@ -36,9 +36,9 @@ const About = () => {
             <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#aea3b0] py-4">
               <a
                 className="flex justify-between items-center w-full"
-                src={Resume}
+                href={Resume}
                 target={"_blank"}
-                rel={"noreferrer"}
+                rel={"noopener, noreferrer"}
               >
                 <IoDocumentAttachSharp size={50} color={"#134e4a"} />
                 <p>Click for resume</p>

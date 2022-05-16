@@ -25,7 +25,7 @@ const Contact = () => {
                 className="flex justify-between items-center w-full"
                 href="https://www.linkedin.com/in/josh-lyons-2a4ab923a/"
                 target={"_blank"}
-                rel={"noreferrer"}
+                rel={"noopener, noreferrer"}
               >
                 <FaLinkedin size={50} color={"blue"} />
               </a>
@@ -35,7 +35,7 @@ const Contact = () => {
                 className="flex justify-between items-center w-full"
                 href="https://github.com/joshlyons225"
                 target={"_blank"}
-                rel={"noreferrer"}
+                rel={"noopener, noreferrer"}
               >
                 <FaGithub size={50} color={"black"} />
               </a>
