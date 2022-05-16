@@ -11,8 +11,8 @@ const Navbar = () => {
   const clickHandler = () => setNav(!nav);
 
   return (
-    <section name="navbar" className="fixed w-full h-auto">
-      <div className="w-full h-auto text-stone-600 bg-slate-800 flex p-4">
+    <section name="navbar" className="fixed w-full">
+      <div className="w-full text-stone-600 bg-slate-800 flex p-4">
         {/* Nav burger */}
         <div onClick={clickHandler} className="hidden z-10">
           {!nav ? <FaBars /> : <FaTimes />}
@@ -68,16 +68,17 @@ const Navbar = () => {
               Contact
             </Link>
           </li>
+          <li>
+            {/* Logo */}
+            <div className="py-2">
+              <img
+                src={LogoJL}
+                alt="logo icon"
+                style={{ width: "300px", height: "200px" }}
+              ></img>
+            </div>
+          </li>
         </ul>
-
-        {/* Logo */}
-        <div>
-          <img
-            src={LogoJL}
-            alt="logo icon"
-            style={{ width: "300px", height: "200px" }}
-          ></img>
-        </div>
       </div>
     </section>
   );
