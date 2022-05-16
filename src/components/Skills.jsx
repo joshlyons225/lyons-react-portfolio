@@ -20,15 +20,13 @@ const Skills = () => {
 
         <div className="flex flex-row flex-wrap w-full grid sm:grid-cols-2 gap-10 px-4 py-4">
           <div className="sm:text-right">
-            <p className="font-bold text-4xl">
-              <ul>
-                <li>* HTML, CSS, Git</li>
-                <li>* JavaScript, Node, Express</li>
-                <li>* MySQL, MongoDB, Server APIs</li>
-                <li>* MVC, ORM, PWA</li>
-                <li>* React, Bootstrap, Tailwind</li>
-              </ul>
-            </p>
+            <ul className="font-bold text-4xl">
+              <li>* HTML, CSS, Git</li>
+              <li>* JavaScript, Node, Express</li>
+              <li>* MySQL, MongoDB, Server APIs</li>
+              <li>* MVC, ORM, PWA</li>
+              <li>* React, Bootstrap, Tailwind</li>
+            </ul>
           </div>
           <img
             className="w-auto h-48 rounded-lg mx-auto"
