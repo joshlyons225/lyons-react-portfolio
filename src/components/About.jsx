@@ -2,6 +2,7 @@
 import React from "react";
 import Profile from "../assets/profile.jpg";
 import { IoDocumentAttachSharp } from "react-icons/io5";
+import Resume from "../assets/Josh_Lyons_-_Full_Stack_Developer.pdf";
 
 // create About section function
 const About = () => {
@@ -35,7 +36,7 @@ const About = () => {
             <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#aea3b0] py-4">
               <a
                 className="flex justify-between items-center w-full"
-                href=""
+                src={Resume}
                 target={"_blank"}
                 rel={"noreferrer"}
               >
