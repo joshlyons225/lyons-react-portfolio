@@ -24,7 +24,7 @@ const Skills = () => {
               <ul>
                 <li>* HTML, CSS, Git</li>
                 <li>* JavaScript, Node, Express</li>
-                <li>* MySQL, MongoDB, APIs</li>
+                <li>* MySQL, MongoDB, Server APIs</li>
                 <li>* MVC, ORM, PWA</li>
                 <li>* React, Bootstrap, Tailwind</li>
               </ul>
