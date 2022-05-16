@@ -74,7 +74,7 @@ const Navbar = () => {
               <img
                 src={LogoJL}
                 alt="logo icon"
-                style={{ width: "300px", height: "200px" }}
+                style={{ width: "200px", height: "200px" }}
               ></img>
             </div>
           </li>
