@@ -24,7 +24,7 @@ const Contact = () => {
             <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 py-4">
               <a
                 className="flex justify-between items-center w-full"
-                href=""
+                href="https://www.linkedin.com/in/josh-lyons-2a4ab923a/"
                 target={"_blank"}
                 rel={"noreferrer"}
               >
