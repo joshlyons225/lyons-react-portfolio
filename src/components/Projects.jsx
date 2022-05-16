@@ -34,6 +34,9 @@ const Projects = () => {
             centerMode={true}
             onSwipeMove={true}
             showThumbs={false}
+            onClickItem={(index) => {
+              window.open([index].url);
+            }}
           >
             <div>
               <a
@@ -41,7 +44,6 @@ const Projects = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                GO TO LIVE SITE
                 <div>
                   <img
                     className="object-cover h-1/5 w-auto py-2"
