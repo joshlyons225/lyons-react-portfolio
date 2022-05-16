@@ -36,11 +36,20 @@ const Projects = () => {
             showThumbs={false}
           >
             <div>
-              <img
-                className="object-cover h-1/5 w-auto py-2"
-                src={Horrorscope}
-                alt="horrorscope icon"
-              ></img>
+              <a
+                href="https://horrorscopes-project.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GO TO LIVE SITE
+                <div>
+                  <img
+                    className="object-cover h-1/5 w-auto py-2"
+                    src={Horrorscope}
+                    alt="horrorscope icon"
+                  ></img>
+                </div>
+              </a>
             </div>
             <div>
               <img
