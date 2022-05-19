@@ -1,43 +1,65 @@
-# Josh Lyons React Portfolio
+# Getting Started with Create React App
 
-![License](https://img.shields.io/badge/License-GNU-brightgreen)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Description
+## Available Scripts
 
-Professional full stack developer portfolio for Josh Lyons; built with React and Tailwind.
+In the project directory, you can run:
 
-## GitHub Site
+### `npm start`
 
-[Click to go to GitHub site!](https://github.com/joshlyons225/lyons-react-portfolio)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Deployed App Link
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-[Check out the live app! =>=>=>](https://joshlyons225.github.io/lyons-react-portfolio/)
+### `npm test`
 
-## Screenshots
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-![Screenshot (29)](https://user-images.githubusercontent.com/95392565/168705507-28dcc366-dc87-4001-b3ad-56f3c840b02c.png)
-![Screenshot (30)](https://user-images.githubusercontent.com/95392565/168705516-3f71ccef-ff80-4fb7-9862-2c2d4ed35aee.png)
-![Screenshot (31)](https://user-images.githubusercontent.com/95392565/168705524-ed9f8c66-41a8-44ef-8bf1-8dee3166d363.png)
-![Screenshot (32)](https://user-images.githubusercontent.com/95392565/168705527-ea1991c8-1b31-4d8e-93eb-2a60a39ad789.png)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Installation
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Clone the repo, run npm install, then npm start.
+### `npm run eject`
 
-## Technologies
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-This app was created using NPM, Express, Tailwind, React, and JavaScript.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Contributions
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-To contribute to this project, reach out via the contact info below.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Questions
+## Learn More
 
-You may direct any questions about the project to [joshlyons225](https://github.com/joshlyons225), via email: [joshlyons225@gmail.com](mailto:joshlyons225@gmail.com).
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## License
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-This project was developed under the GNU license.
-[More information about GNU](https://opensource.org/licenses/GNU)
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
