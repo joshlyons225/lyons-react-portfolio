@@ -17,6 +17,7 @@ You may also see any lint errors in the console.
 ### `npm test`
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Screenshots
 
 ![Screenshot (29)](https://user-images.githubusercontent.com/95392565/168705507-28dcc366-dc87-4001-b3ad-56f3c840b02c.png)
@@ -34,6 +35,8 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 ### `npm run build`
 >>>>>>> develop
 
+=======
+>>>>>>> 8a213c1b9860e385b776ef9d2669388f9c0913e2
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
