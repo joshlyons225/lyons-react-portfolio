@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
-// placeholder for resume; import Resume from "../assets"
 import LogoJL from "../assets/logo.png";
 
 // create Navbar section function
