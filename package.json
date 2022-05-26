@@ -1,7 +1,7 @@
 {
   "name": "lyons-react-portfolio",
   "version": "0.1.0",
-  "homepage": "https://joshlyons225.github.io/lyons-react-portfolio/",
+  "homepage": "https://lyons-react-portfolio.herokuapp.com/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
