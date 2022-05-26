@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/lyons-react-portfolio/static/css/main.736e94c6.css",
-    "main.js": "/lyons-react-portfolio/static/js/main.f3c4c3aa.js",
+    "main.js": "/lyons-react-portfolio/static/js/main.bd40c32b.js",
     "static/media/yodad.png": "/lyons-react-portfolio/static/media/yodad.19ad7fb1356390363de5.png",
     "static/media/thought.png": "/lyons-react-portfolio/static/media/thought.f911dc195339e2fda2ac.png",
     "static/media/up2bar.jpg": "/lyons-react-portfolio/static/media/up2bar.01b8032ec52a5d2614a8.jpg",
+    "static/media/tacobell.png": "/lyons-react-portfolio/static/media/tacobell.5f70b59884f3e68d6b51.png",
     "static/media/horrorscopes.png": "/lyons-react-portfolio/static/media/horrorscopes.902866aa4f9c20f2f5c2.png",
     "static/media/budget.png": "/lyons-react-portfolio/static/media/budget.c9650076c27ee7c294a8.png",
     "static/media/quiz.png": "/lyons-react-portfolio/static/media/quiz.d5dfb84174a7a4ab4a18.png",
@@ -13,10 +14,10 @@
     "static/media/Josh_Lyons_-_Full_Stack_Developer.pdf": "/lyons-react-portfolio/static/media/Josh_Lyons_-_Full_Stack_Developer.49487706cd87cb6412a5.pdf",
     "index.html": "/lyons-react-portfolio/index.html",
     "main.736e94c6.css.map": "/lyons-react-portfolio/static/css/main.736e94c6.css.map",
-    "main.f3c4c3aa.js.map": "/lyons-react-portfolio/static/js/main.f3c4c3aa.js.map"
+    "main.bd40c32b.js.map": "/lyons-react-portfolio/static/js/main.bd40c32b.js.map"
   },
   "entrypoints": [
     "static/css/main.736e94c6.css",
-    "static/js/main.f3c4c3aa.js"
+    "static/js/main.bd40c32b.js"
   ]
 }
